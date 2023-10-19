@@ -1,1 +1,1 @@
-this is a basic node application showing basic functionalities of node
+this is a basic node application showing the basic functionalities.
