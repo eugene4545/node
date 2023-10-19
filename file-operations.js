@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-// Create a file named "welcome.txt" with content "Hello Node"
+// Creating a file named "welcome.txt" with content "Hello Node"
 fs.writeFile("welcome.txt", "Hello Node", (err) => {
   if (err) {
     console.error("Error creating the file.");
@@ -9,7 +9,7 @@ fs.writeFile("welcome.txt", "Hello Node", (err) => {
   }
 });
 
-// Read and display the content of "welcome.txt"
+// Reading and displaying the content of "welcome.txt"
 fs.readFile("welcome.txt", "utf8", (err, data) => {
   if (err) {
     console.error("Error reading the file.");
